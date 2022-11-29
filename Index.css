@@ -1,0 +1,112 @@
+/* elements */
+body {
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0px;  
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+h3 {
+    color: #d0aaff;
+    font-size: 20px;
+    margin: 0px;
+}
+
+p{
+    line-height: 23px; 
+}
+
+/* layouts */
+
+header,
+.section-two {
+    background-color: #5f29a3;
+}
+
+header,
+section,
+footer {
+    padding: 20px 0px;
+}
+
+footer {
+        color: #5f29a3;
+        text-align: center;
+}
+
+.container  {
+    width: 600px;
+    margin: 0px auto;
+}
+.section-two {
+    color: whitesmoke;
+}
+.section-two-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* links */
+
+a{
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+    color: #5f29a3;
+}
+
+
+/* images */
+
+.section-two-img {
+    width: 275px;
+    border-radius: 4px;
+}
+.purple-img {
+    width: 100%;
+}
+
+/* links-Buttons */
+
+.btn{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.btn-dark{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn-mid{
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-light{
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #f3e885;
+    color: #2b283a;
+}
